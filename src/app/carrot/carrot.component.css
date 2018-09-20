@@ -1,0 +1,59 @@
+
+.m1{
+    margin:50px;
+}
+
+.b1{
+
+    border-style:solid;
+    border-color:rgb(158, 162, 165);
+    border-radius:10px;
+    
+    }
+
+    
+    
+.p1 
+{
+    padding: 10px;
+    border-radius:50px;
+   
+}
+.b2{
+
+border-style:solid;
+border-color:rgb(158, 162, 165);
+border-radius:10px;
+
+}
+
+.b3{
+   
+    border-style:solid;
+    border-color:rgb(115, 233, 242);
+    border-radius:10px;
+
+}
+
+.p2{
+
+    padding:5px;
+}
+
+.m2{
+    margin:50px;
+}
+
+.p3{
+
+    padding:10px;
+    border-radius:20px;
+}
+.pointer
+{
+    cursor:pointer;
+}
+
+.pointer{
+    cursor:pointer;
+}

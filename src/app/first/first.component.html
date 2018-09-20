@@ -1,0 +1,35 @@
+
+
+
+<div class="m1">
+  <div class="b1">
+    <div class="row justify-content-around">
+      <img class="p1" src="https://i.ytimg.com/vi/ULZibRNGGow/maxresdefault.jpg" height="350" width="900">
+    </div>
+  </div>
+</div>
+
+
+<div class="m2">
+  <div class="b2">
+    <div class="p2">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div *ngFor="let item of Items;let i=index;" class="p3">
+            <div class="b3">
+              <div class="p3">
+                <img class="card-img-top" [src]="item.Img" height="200" width="20">
+                <div class="card-body">
+                  <h4 class="card-title">{{item.Name}} </h4>
+                </div>
+                <div class="card-footer">
+                  <div (click)="goToUrl(item.Id)"class="btn btn-primary">{{item.Id}}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+   </div>
+  
